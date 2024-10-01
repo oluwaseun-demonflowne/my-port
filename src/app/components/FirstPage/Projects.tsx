@@ -15,7 +15,7 @@ const Projects = () => {
           <h1 className="text-lg font-medium underline">Confrenza</h1>
           <p>creator and maintainer</p>
           <div className="mt-3 flex">
-            <div className="md:w-[50%] space-y-2 text-lg">
+            <div className="md:w-[50%] space-y-2 text-[15px]">
               <p>
                 Confrenzer is a video Conference app for people who want to hold
                 a virtual conference online but don&apos;t want the traditional
@@ -59,7 +59,7 @@ const Projects = () => {
                 className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
               />
             </div>
-            <div className="md:w-[50%] space-y-2 text-lg">
+            <div className="md:w-[50%] space-y-2 text-[15px]">
               <p className="">
                 ChatterBox is a chatting appllication built with web sockets ,
                 enables real time text chatting and sharing of images, image
@@ -83,7 +83,7 @@ const Projects = () => {
           <h1 className="text-lg font-medium underline">DeUpload</h1>
           <p>creator and maintainer</p>
           <div className="mt-3 flex">
-            <div className="md:w-[50%] space-y-2 text-lg">
+            <div className="md:w-[50%] space-y-2 text-[15px]">
               <p className="">
                 DeUpload is a real time file sharing system for companies and
                 enterpises to use to share live files between each other instead
