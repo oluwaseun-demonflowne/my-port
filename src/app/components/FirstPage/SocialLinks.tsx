@@ -9,7 +9,7 @@ const SocialLinks = () => {
   return (
     <div className="space-y-2">
       <p className="font-light">Want to contact me ?</p>
-      <div className="flex gap-7">
+      <div className="flex flex-wrap gap-7">
         <button className="flex gap-2 items-center">
           <LuGithub />
           <Link

@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="text-2xl mt-6 font-semibold">
         Projects i have enjoyed working on
       </h1>
-      <div className="flex flex-col gap-32">
+      <div className="flex flex-col gap-24">
         <div className="flex flex-col gap-2">
           <h1 className="text-lg font-medium underline">Confrenza</h1>
           <p>creator and maintainer</p>

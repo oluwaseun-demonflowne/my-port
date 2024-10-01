@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Oxanium } from "next/font/google";
 
-const inter = Montserrat({ subsets: ["latin"] });
+const inter = Oxanium({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
