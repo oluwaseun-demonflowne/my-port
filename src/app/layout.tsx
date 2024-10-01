@@ -6,7 +6,7 @@ const inter = Oxanium({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ibu EMMANUEL",
-  description: "Frontend Engineer, amateur gamer, turn ideas ainto softwares",
+  description: "Frontend Engineer, amateur gamer, turn ideas into softwares",
   openGraph: {
     images: [
       {
