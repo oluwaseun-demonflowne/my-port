@@ -46,7 +46,12 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <h1 className="text-lg font-medium underline">ChatterBox</h1>
+          <Link
+            target="_blank"
+            href="https://workers-chatapp-frontend.vercel.app/login"
+          >
+            <h1 className="text-lg font-medium underline">ChatterBox</h1>
+          </Link>
           <p>creator and maintainer</p>
           <div className="mt-3 flex">
             <div className="w-[50%]   justify-center hidden md:flex">
@@ -80,12 +85,14 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <h1 className="text-lg font-medium underline">DeUpload</h1>
+          <Link target="_blank" href="https://file-cracked.vercel.app/">
+            <h1 className="text-lg font-medium underline">Fileio</h1>
+          </Link>
           <p>creator and maintainer</p>
           <div className="mt-3 flex">
             <div className="md:w-[50%] space-y-2 text-[17px]">
               <p className="">
-                DeUpload is a real time file sharing system for companies and
+                Fileio is a real time file sharing system for companies and
                 enterpises to use to share live files between each other instead
                 of the traditional way of using physical hardwares like USB
                 stick, e.t.c
