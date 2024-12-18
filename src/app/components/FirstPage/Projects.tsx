@@ -48,7 +48,7 @@ const Projects = () => {
         <div className="flex flex-col gap-2">
           <Link
             target="_blank"
-            href="https://workers-chatapp-frontend.vercel.app/login"
+            href="https://chatapp.stealthcode.site"
           >
             <h1 className="text-lg font-medium underline">ChatterBox</h1>
           </Link>
@@ -85,7 +85,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <Link target="_blank" href="https://file-cracked.vercel.app/">
+          <Link target="_blank" href="https://fileio.stealthcode.site/">
             <h1 className="text-lg font-medium underline">Fileio</h1>
           </Link>
           <p>creator and maintainer</p>
