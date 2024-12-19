@@ -8,7 +8,7 @@ const Nav = () => {
         <Link href="">Home</Link>
       </button>
       <button className="underline">
-        <Link href="">See resume</Link>
+        <Link download={"Ibu Emmanuel Resume.pdf"} href="/Ibu Emmanuel Resume.pdf">See resume</Link>
       </button>
     </div>
   );
