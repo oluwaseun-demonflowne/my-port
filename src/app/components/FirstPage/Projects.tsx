@@ -32,7 +32,7 @@ const Projects = () => {
                 Payrole is a powerful and easy-to-use platform designed to help
                 HR departments streamline payroll and manage workforce
                 operations more effectively. With a focus on accuracy,
-                compliance, and convenience. 
+                compliance, and convenience.
               </p>
               <button className="flex gap-2 text-[13px] items-center">
                 <LuGithub className="text-base" />
@@ -78,6 +78,43 @@ const Projects = () => {
                 unoptimized
                 className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
               />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <Link target="_blank" href="https://deelhrproject.vercel.app/">
+            <h1 className="text-lg font-medium underline">deel</h1>
+          </Link>
+          <p>creator and maintainer</p>
+          <div className="mt-3 flex">
+            <div className="w-[50%]   justify-center hidden md:flex">
+              <Image
+                alt="payroll preview"
+                src={"/payroll.png"}
+                width={100}
+                height={100}
+                unoptimized
+                className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
+              />
+            </div>
+            <div className="md:w-[50%] space-y-2 text-[17px]">
+              <p className="">
+                deel AI is an intelligent HR application designed to transform
+                the hiring process by automating resume screening for job
+                postings. Built with advanced artificial intelligence, the app
+                analyzes resumes to quickly and accurately identify the best
+                candidates for a role, saving HR teams valuable time and effort.
+              </p>
+              <button className="flex gap-2 text-[13px] items-center">
+                <LuGithub className="text-base" />
+                <Link
+                  className="underline gap-2 flex items-center"
+                  href="https://github.com/oluwaseun-demonflowne/deel"
+                >
+                  https://github.com/oluwaseun-demonflowne/deel
+                  <IoIosLink />
+                </Link>
+              </button>
             </div>
           </div>
         </div>
