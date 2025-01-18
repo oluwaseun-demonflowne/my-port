@@ -12,6 +12,42 @@ const Projects = () => {
       </h1>
       <div className="flex flex-col gap-24">
         <div className="flex flex-col gap-2">
+          <Link target="_blank" href="https://payrole-hr.vercel.app/">
+            <h1 className="text-lg font-medium underline">Payrole</h1>
+          </Link>
+          <p>creator and maintainer</p>
+          <div className="mt-3 flex">
+            <div className="w-[50%]   justify-center hidden md:flex">
+              <Image
+                alt="payroll preview"
+                src={"/payroll.png"}
+                width={100}
+                height={100}
+                unoptimized
+                className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
+              />
+            </div>
+            <div className="md:w-[50%] space-y-2 text-[17px]">
+              <p className="">
+                Payrole is a powerful and easy-to-use platform designed to help
+                HR departments streamline payroll and manage workforce
+                operations more effectively. With a focus on accuracy,
+                compliance, and convenience. 
+              </p>
+              <button className="flex gap-2 text-[13px] items-center">
+                <LuGithub className="text-base" />
+                <Link
+                  className="underline gap-2 flex items-center"
+                  href="https://github.com/oluwaseun-demonflowne/payrole"
+                >
+                  https://github.com/oluwaseun-demonflowne/payrole
+                  <IoIosLink />
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
           <h1 className="text-lg font-medium underline">Confrenza</h1>
           <p>creator and maintainer</p>
           <div className="mt-3 flex">
@@ -46,10 +82,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <Link
-            target="_blank"
-            href="https://chatapp.stealthcode.site"
-          >
+          <Link target="_blank" href="https://chatapp.stealthcode.site">
             <h1 className="text-lg font-medium underline">ChatterBox</h1>
           </Link>
           <p>creator and maintainer</p>
