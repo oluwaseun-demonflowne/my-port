@@ -10,6 +10,39 @@ const Projects = () => {
       <h1 className="text-2xl mt-6 font-semibold">
         Projects i have enjoyed working on
       </h1>
+      <div className="flex flex-col gap-2">
+        <h1 className="text-lg font-medium underline">AI PDF Reader</h1>
+        <p>creator and maintainer</p>
+        <div className="mt-3 flex">
+          <div className="md:w-[50%] space-y-2 text-[17px]">
+            <p>
+              It is an application tat utilises deepseek AI, you upload a PDF
+              and you can start texting with it like a real person, ask
+              questions from it and also tell it to summarize.
+            </p>
+            <button className="flex gap-2 text-[13px] items-center">
+              <LuGithub className="text-base" />
+              <Link
+                className="underline gap-2 flex items-center"
+                href="https://github.com/oluwaseun-demonflowne/ss"
+              >
+                https://github.com/oluwaseun-demonflowne/pdf-ai
+                <IoIosLink />
+              </Link>
+            </button>
+          </div>
+          <div className="w-[50%]   justify-center hidden md:flex">
+            <Image
+              alt="confrenza preview"
+              src={"/confrenza.png"}
+              width={100}
+              height={100}
+              unoptimized
+              className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
+            />
+          </div>
+        </div>
+      </div>
       <div className="flex flex-col gap-24">
         <div className="flex flex-col gap-2">
           <Link target="_blank" href="https://payrole-hr.vercel.app/">
@@ -119,42 +152,6 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <Link target="_blank" href="https://chatapp.stealthcode.site">
-            <h1 className="text-lg font-medium underline">ChatterBox</h1>
-          </Link>
-          <p>creator and maintainer</p>
-          <div className="mt-3 flex">
-            <div className="w-[50%]   justify-center hidden md:flex">
-              <Image
-                alt="chatter preview"
-                src={"/chatter.png"}
-                width={100}
-                height={100}
-                unoptimized
-                className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
-              />
-            </div>
-            <div className="md:w-[50%] space-y-2 text-[17px]">
-              <p className="">
-                ChatterBox is a chatting appllication built with web sockets ,
-                enables real time text chatting and sharing of images, image
-                quality is full quality , never gets reduced , also a notifier
-                to the person you are texting if he/she/them isn&apos;t online
-              </p>
-              <button className="flex gap-2 text-[13px] items-center">
-                <LuGithub className="text-base" />
-                <Link
-                  className="underline gap-2 flex items-center"
-                  href="https://github.com/oluwaseun-demonflowne/workers-chatapp-frontend"
-                >
-                  https://github.com/oluwaseun-demonflowne/workers-chatapp-frontend
-                  <IoIosLink />
-                </Link>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-2">
           <Link target="_blank" href="https://fileio.stealthcode.site/">
             <h1 className="text-lg font-medium underline">Fileio</h1>
           </Link>
@@ -187,6 +184,42 @@ const Projects = () => {
                 unoptimized
                 className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
               />
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-2">
+          <Link target="_blank" href="https://chatapp.stealthcode.site">
+            <h1 className="text-lg font-medium underline">ChatterBox</h1>
+          </Link>
+          <p>creator and maintainer</p>
+          <div className="mt-3 flex">
+            <div className="w-[50%]   justify-center hidden md:flex">
+              <Image
+                alt="chatter preview"
+                src={"/chatter.png"}
+                width={100}
+                height={100}
+                unoptimized
+                className="w-72 hover:rotate-0 transition-all -rotate-12 h-40"
+              />
+            </div>
+            <div className="md:w-[50%] space-y-2 text-[17px]">
+              <p className="">
+                ChatterBox is a chatting appllication built with web sockets ,
+                enables real time text chatting and sharing of images, image
+                quality is full quality , never gets reduced , also a notifier
+                to the person you are texting if he/she/them isn&apos;t online
+              </p>
+              <button className="flex gap-2 text-[13px] items-center">
+                <LuGithub className="text-base" />
+                <Link
+                  className="underline gap-2 flex items-center"
+                  href="https://github.com/oluwaseun-demonflowne/workers-chatapp-frontend"
+                >
+                  https://github.com/oluwaseun-demonflowne/workers-chatapp-frontend
+                  <IoIosLink />
+                </Link>
+              </button>
             </div>
           </div>
         </div>
