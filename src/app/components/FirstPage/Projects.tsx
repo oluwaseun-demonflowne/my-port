@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="w-[50%]   justify-center hidden md:flex">
             <Image
               alt="confrenza preview"
-              src={"/confrenza.png"}
+              src={"/aiPDF.png"}
               width={100}
               height={100}
               unoptimized
